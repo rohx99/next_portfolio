@@ -20,10 +20,10 @@ const HeroSection = () => (
       </div>
       <div className="px-20">
         <BackgroundGradient className="rounded-[22px] max-w-full p-4 sm:p-10 bg-white dark:bg-black">
-          <p className="text-[1.1rem] text-neutral-600 dark:text-neutral-400 text-left">
+          <p className="text-[1rem] text-neutral-600 dark:text-neutral-400 text-left">
             {description}
           </p>
-          <p className="text-[1rem] text-left mt-5 text-neutral-200">
+          <p className="text-[0.9rem] text-left mt-5 text-neutral-200">
             ~ an introduction by ChatGPT
           </p>
         </BackgroundGradient>
@@ -32,7 +32,7 @@ const HeroSection = () => (
     <div className="w-[35%] flex justify-center items-center h-full pr-10">
       <div className="h-[35rem] mt-20 w-[400px] bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
         <Image
-          className="object-cover w-full h-full rounded-xl"
+          className="object-cover w-[300px] h-full rounded-xl"
           src="/prof_pic.jpg"
           alt="Profile Picture"
           width={300}

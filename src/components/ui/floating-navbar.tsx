@@ -124,17 +124,17 @@ export const FloatingNav = ({
           duration: 0.2,
         }}
         className={cn(
-          "flex max-w-full fixed mx-auto inset-x-0  z-[5000] px-6 py-4 items-center justify-between",
+          "flex max-w-full fixed mx-auto inset-x-0  z-[500] px-6 py-4 items-center justify-between",
           className
         )}
       >
         <div>
-          <Image src="/logo.png" alt="Logo" width={100} height={100} />
+          <Image src="/logo.png" alt="Logo" width={90} height={90} />
         </div>
-        <div className="flex inset-x-0 border border-transparent dark:border-white/[0.2] rounded-full dark:bg-black bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-6 py-4 items-center justify-between space-x-14">
+        <div className="flex inset-x-0 border border-transparent dark:border-white/[0.2] rounded-full dark:bg-black bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-6 py-3 items-center justify-between space-x-14">
           <nav
             onMouseLeave={() => setActive(null)}
-            className="text-[0.95rem] flex space-x-10"
+            className="text-[0.85rem] flex space-x-10"
           >
             {children}
           </nav>
